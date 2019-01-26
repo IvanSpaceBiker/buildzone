@@ -1,0 +1,176 @@
+/*	Global Styling Classes
+ *	----------------------
+ *	This contains a list of useful classes
+ * 	that can quickly set prefered display options.
+*/
+
+/* Align Text to the Center */
+.txt-center {
+	text-align:center;
+}
+
+/* Align Text Vertically In the Center (Tables & Inline Blocks Only)*/
+.txt-vcenter {
+	vertical-align: middle;
+}
+
+/* Align Text to the Left */
+.txt-left {
+	text-align:left;
+}
+
+/* Align Text to the Right */
+.txt-right {
+	text-align:right;
+}
+
+/* Remove top margin */
+.no-margin-top {
+	margin-top:0!important;
+}
+
+/* Remove bottom margin */
+.no-margin-bottom {
+	margin-bottom:0!important;
+}
+
+/* Remove left margin */
+.no-margin-left {
+	margin-left:0!important;
+}
+
+/* Remove right margin */
+.no-margin-right {
+	margin-right:0!important;
+}
+
+/* Remove top padding */
+.no-padding-top {
+	padding-top:0!important;
+}
+
+/* Remove bottom padding */
+.no-padding-bottom {
+	padding-bottom:0!important;
+}
+
+/* Remove left padding */
+.no-padding-left {
+	padding-left:0!important;
+}
+
+/* Remove right padding */
+.no-padding-right {
+	padding-right:0!important;
+}
+
+/* Additional Line Heights */
+.line-height-20 {
+	line-height:20px!important;
+}
+
+.line-height-10 {
+	line-height:10px!important;
+}
+
+.hover-button:hover {
+	cursor:pointer;
+}
+
+.red-txt {
+	color:#AE1325!important;
+}
+
+.blue-txt {
+	color:#438EC2;
+}
+
+.cobaltblue-txt {
+	color:#346597;
+}
+
+/*************************/
+/*   ANIMATED STYLING    */
+/*************************/
+
+/*Adds fading in-and-out effect to icons*/
+@keyframes fa-blink {
+     0% { opacity: 1; }
+     25% { opacity: 0.25; }
+     50% { opacity: 0.5; }
+     75% { opacity: 0.75; }
+     100% { opacity: 0; }
+ }
+/*Adds fading in-and-out effect to icons*/
+.fa-blink {
+   -webkit-animation: fa-blink .75s linear infinite;
+   -moz-animation: fa-blink .75s linear infinite;
+   -ms-animation: fa-blink .75s linear infinite;
+   -o-animation: fa-blink .75s linear infinite;
+   animation: fa-blink .75s linear infinite;
+}
+
+/* Adds top nav pace loader bar styling */
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+/*************************/
+/*  INTERACTION STYLING  */
+/*************************/
+
+/* Hand Cursor on Hover */
+.button-hover:hover {
+	cursor:pointer;
+}
+
+/*****************************/
+/*  MODULE SPECIFIC STYLING  */
+/*****************************/
+
+/* Control Panel > Student Enrollment */
+.grade-tab {
+	border-right:1px solid #DADADA;
+}
+
+/* Control Panel > Position Control */
+.position-row {
+	border-bottom: 	1px solid #CCC;
+	margin-top:		2px!important;
+}
+
+.position-constraint-col {
+	border-left: 	1px dotted #CCC;
+}
+
+.position-col {
+
+}
+
+.position-add-alloc-btn {
+	margin:	2px!important;
+}
+
+.allocation-removal-button > i:hover {
+	cursor:pointer!important;
+	color:#F2777F!important;
+}
+
+.allocation-removal-button > i:active {
+	cursor:pointer!important;
+	color:#900912!important;
+}
