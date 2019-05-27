@@ -1,0 +1,270 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Run"] = "boxwalk",
+						["ClassName"] = "holdtype",
+						["UniqueID"] = "967740607",
+						["CrouchIdle"] = "idle",
+						["CrouchWalk"] = "boxwalk",
+						["StandIdle"] = "idle",
+						["Walk"] = "boxwalk",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1253147035",
+								["Event"] = "button",
+								["Arguments"] = "l",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1031398423",
+						["Sound"] = "vox/goodbye.wav",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1349146887",
+								["Event"] = "button",
+								["Arguments"] = "m",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "3484392186",
+						["Sound"] = "vox/yes.wav",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Jiggle"] = true,
+						["ClassName"] = "bone",
+						["UniqueID"] = "1052026295",
+						["Bone"] = "bone 01",
+						["Size"] = 0.4,
+						["EditorExpand"] = true,
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2135290687",
+								["Event"] = "button",
+								["Arguments"] = "u",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "3302241650",
+						["Sound"] = "vox/you.wav",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "3957025649",
+								["Event"] = "button",
+								["Arguments"] = "j",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1751197931",
+						["Sound"] = "vox/vox_login.wav",
+					},
+				},
+				[7] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1243473505",
+								["Event"] = "button",
+								["Arguments"] = "n",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1714864515",
+						["Sound"] = "vox/no.wav",
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "4060659363",
+								["Event"] = "button",
+								["Arguments"] = "o",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1572461826",
+						["Sound"] = "vox/ass.wav",
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "2880753872",
+								["Event"] = "button",
+								["Arguments"] = "p",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "3246154076",
+						["Sound"] = "vox/idiot.wav",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Bone"] = "cockpitrotate",
+						["EditorExpand"] = true,
+						["UniqueID"] = "1994250743",
+						["ClassName"] = "bone",
+					},
+				},
+				[11] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "1032547373",
+								["Event"] = "button",
+								["Arguments"] = "b",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1029222723",
+						["Sound"] = "vox/exterminate.wav",
+					},
+				},
+				[12] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "3021077881",
+								["Event"] = "button",
+								["Arguments"] = "h",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1886497779",
+						["Sound"] = "vox/sorry.wav",
+					},
+				},
+				[13] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "event",
+								["UniqueID"] = "742036330",
+								["Event"] = "health_lost",
+								["Operator"] = "equal or above",
+								["Arguments"] = "10",
+								["Invert"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "sound",
+						["UniqueID"] = "1332059799",
+						["Pitch"] = 0.513,
+						["EditorExpand"] = true,
+						["Sound"] = "vox/bizwarn.wav",
+					},
+				},
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["UniqueID"] = "1011383167",
+				["Model"] = "models/perftest/loader.mdl",
+				["Size"] = 0.4,
+				["DrawWeapon"] = false,
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "1306120543",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},
